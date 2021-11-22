@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".ui.Account.adminOption.TotalPrice">
+
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Number of Product"
+        android:textColor="@color/textColor"
+        android:gravity="center"
+        android:layout_marginHorizontal="80dp"
+
+        android:background="@drawable/background_n1"/>
+
+    <TextView
+
+        android:id="@+id/TT_numberProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="ProductName: " />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:gravity="center"
+        android:layout_marginHorizontal="80dp"
+        android:background="@drawable/background_n1"
+        android:text="Total Price" />
+
+    <TextView
+        android:id="@+id/TT_totalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="Description: "
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/textView611"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:gravity="center"
+        android:layout_marginHorizontal="80dp"
+        android:background="@drawable/background_n1"
+        android:text="Price Average" />
+
+    <TextView
+        android:id="@+id/TT_ave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="Description: "
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/TT_back"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:textSize="9sp"
+        android:textStyle="bold"
+
+         />
+</LinearLayout>

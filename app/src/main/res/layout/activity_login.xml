@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/mPurpleBack">
+
+    <LinearLayout
+        android:id="@+id/Linear1"
+        android:layout_marginHorizontal="30dp"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/loginUsername"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/background_n2"
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:textColorHint="@color/textColor"
+            android:paddingStart="20dp" />
+
+        <EditText
+            android:id="@+id/loginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/background_n2"
+            android:ems="10"
+            android:hint="@string/email"
+            android:paddingLeft="20dp"
+            android:textColorHint="@color/textColor"
+            android:paddingStart="20dp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/logonPassword"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="@drawable/background_n2"
+            android:ems="10"
+            android:hint="@string/password"
+            android:textColorHint="@color/textColor"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="20dp"
+            android:autoLink="web"
+            android:id="@+id/forget_password"
+            android:text="@string/forget_password"
+            android:textColor="@color/textColor"
+            android:textStyle="italic" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ok"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="@string/ok"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:background="@drawable/background_n2"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp" />
+
+
+
+
+
+    </LinearLayout>
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        />
+
+    <TextView
+        android:id="@+id/registerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textColor="@color/textColor"
+        android:layout_alignBottom="@id/signIn"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"
+
+        android:text="@string/register" />
+
+
+</RelativeLayout>

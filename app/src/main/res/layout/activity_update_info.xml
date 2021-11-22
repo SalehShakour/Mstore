@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MyList.AddProduct">
+    <LinearLayout
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/UPP_imageViewEdit"
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#33000000"
+
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:id="@+id/UPP_browse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="80dp"
+            android:text="@string/browse"
+
+            android:layout_marginStart="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+
+        <EditText
+            android:id="@+id/UPP_userNameEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/user_name"
+            />
+
+        <EditText
+            android:id="@+id/UPP_emailEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            android:id="@+id/UPP_phoneNumber_Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="@string/phone"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            android:id="@+id/oldPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Old Password"/>
+
+        <EditText
+            android:id="@+id/UPP_userPassEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="New Password"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#F93333"
+            android:textSize="12sp"
+            android:alpha=".6"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="If you don't want your password to change, enter the old password in the New Password field." />
+
+        <Button
+            android:id="@+id/UPP_update"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/update_sign_out" />
+    </LinearLayout>
+
+
+</LinearLayout>

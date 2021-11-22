@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Mstore</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget_Password</string>
+    <string name="ok">ok</string>
+    <string name="register">Register</string>
+    <string name="title_activity_register">Register</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_home">Home</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="add">Add</string>
+    <string name="user_name">User Name</string>
+    <string name="email">Email</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="sign_out">Sign OUT</string>
+    <string name="show_profile_photo">Profile Photo</string>
+    <string name="remove">Remove</string>
+    <string name="product_id">Product Id</string>
+    <string name="title_activity_edit_list">edit_list</string>
+    <string name="product_name">Product Name</string>
+    <string name="price">Price</string>
+    <string name="information">Information</string>
+    <string name="your_id">Your Id</string>
+    <string name="your_password">Your Password</string>
+    <string name="title_activity_add_or_remove">AddOrRemove</string>
+    <string name="title_activity_remove_product">RemoveProduct</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="price_store">Price</string>
+    <string name="title_activity_edit_product">EditProduct</string>
+    <string name="title_activity_complete_product_info">CompleteProductInfo</string>
+    <string name="update_info">Update Info</string>
+    <string name="title_activity_update_info">UpdateInfo</string>
+
+    <string name="phone">Phone</string>
+    <string name="update">Update</string>
+    <string name="browse">Browse</string>
+    <string name="update_sign_out"><![CDATA[Update & Sign Out]]></string>
+    <string name="title_activity_admin_menu">AdminMenu</string>
+    <string name="title_activity_all_users">AllUsers</string>
+    <string name="title_activity_all_user_comp_info">AllUserCompInfo</string>
+    <string name="title_activity_top_seller">TopSeller</string>
+    <string name="title_activity_total_price">TotalPrice</string>
+
+
+</resources>

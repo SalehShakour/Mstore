@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mstore" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/plus_ic_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/plus_ic_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mstore" >
+        <activity
+            android:name=".ui.Account.adminOption.TotalPrice"
+            android:label="@string/title_activity_total_price"
+            android:theme="@style/Theme.Mstore.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ui.Account.adminOption.TopSeller"
+            android:label="@string/title_activity_top_seller"
+            android:theme="@style/Theme.Mstore.NoActionBar" />
+        <activity
+            android:name=".ui.Account.adminOption.AllUserCompInfo"
+            android:label="@string/title_activity_all_user_comp_info"
+            android:theme="@style/Theme.Mstore.NoActionBar" />
+        <activity
+            android:name=".ui.Account.adminOption.AllUsers"
+            android:label="@string/title_activity_all_users"
+            android:theme="@style/Theme.Mstore.NoActionBar" />
+        <activity
+            android:name=".ui.Account.AdminMenu"
+            android:label="@string/title_activity_admin_menu"
+            android:theme="@style/Theme.Mstore.NoActionBar" />
+        <activity
+            android:name=".ui.Account.UpdateInfo"
+            android:label="@string/title_activity_update_info"
+            android:theme="@style/Theme.Mstore.NoActionBar" />
+        <activity
+            android:name=".ui.Store.CompleteProductInfo"
+            android:label="@string/title_activity_complete_product_info"
+            android:theme="@style/Theme.Mstore.NoActionBar" />
+        <activity
+            android:name=".ui.MyList.EditProduct"
+            android:label="@string/title_activity_edit_product"
+            android:theme="@style/Theme.Mstore.NoActionBar" />
+        <activity
+            android:name=".ui.MyList.AddProduct"
+            android:label="@string/title_activity_edit_list"
+            android:theme="@style/Theme.Mstore.NoActionBar" />
+        <activity
+            android:name=".ui.Login.HomeActivity"
+            android:label="@string/title_activity_home" /> <!-- <activity -->
+        <!-- android:name=".Home" -->
+        <!-- android:label="@string/title_activity_home" -->
+        <!-- android:theme="@style/Theme.Mstore.NoActionBar" /> -->
+        <activity
+            android:name=".ui.Login.Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Theme.Mstore.NoActionBar" />
+        <activity android:name=".ui.Login.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
